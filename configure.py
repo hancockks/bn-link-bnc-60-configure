@@ -15,7 +15,6 @@ powerTemplate='PowerSet {:.4f}; VoltageSet {:.4f}; CurrentSet {:.4f}'
 networkTemplate='SSID1 {}; Password1 {}; SSID2 {}; Password2 {}'
 
 def getSendCommand(payload):
-	print("{}, {}".format(getUrl(), payload))
 	r = requests.get(getUrl(), params=payload)
 	r.raise_for_status()
 	return r

@@ -12,7 +12,7 @@ locationTemplate='latitude {}; longitude {}; timezone {}; timedst {}; timestd {}
 mqttTemplate='MqttHost {}; MqttUser {}; MqttPassword {}'
 hardwareTemplate='template {}; module 0'
 powerTemplate='PowerSet {:.4f}; VoltageSet {:.4f}; CurrentSet {:.4f}'
-networkTemplate='SSID1 {}; Password1 {}; SSID2 {}; Password2 {}'
+networkTemplate='SSID1 {}; Password1 {}; SSID2 {}; Password2 {}; Restart 1'
 
 def getSendCommand(payload):
 	r = requests.get(getUrl(), params=payload)

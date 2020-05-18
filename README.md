@@ -15,6 +15,6 @@ See https://github.com/ct-Open-Source/tuya-convert
 2. once flashed, the wifi plug will create a new SSID with a SSID of tasmota-XXXX. You must connect to this.
 3. copy the sample.ini script and fill in all the pertinent information with your own local configuration
 4. run  ```python configure.py myconfiguration.ini```
-
+5. You may have to browse to http://192.168.4.1 and click the save button...it seems Wifi settings don't always get saved.
 
 After configuring the local time zone information, mqtt, and hardware template, the script will prompt for calibrating your power monitoring hardware.  More information can be found at https://tasmota.github.io/docs/Power-Monitoring-Calibration/
